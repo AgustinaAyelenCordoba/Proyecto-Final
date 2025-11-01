@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private float timeSinceLastForce;
     private float intervalTime;
 
-    private Vector3 speed;
+    [SerializeField]private Vector3 speed;
     private IMovementStrategy movementStrategy;
     private Player player;
     void Start()
@@ -16,8 +16,8 @@ public class PlayerMovement : MonoBehaviour
         timeSinceLastForce = 0f;
         intervalTime = 2f;
 
-        speed = new Vector3(5f, 0, 0);
-        player = new Player(5f, 5f);
+        
+        player = new Player(speed.x,speed.y);
         // SetMovementStrategy(new SmootMovement());
         SetMovementStrategy(new AcelerateMovement());
 
