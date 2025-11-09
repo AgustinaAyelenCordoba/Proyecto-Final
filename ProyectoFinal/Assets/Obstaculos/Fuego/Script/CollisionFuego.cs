@@ -7,7 +7,7 @@ public class CollisionFuego : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Se quemo");
+            Destroy(collision.gameObject);
         }
     }
 }

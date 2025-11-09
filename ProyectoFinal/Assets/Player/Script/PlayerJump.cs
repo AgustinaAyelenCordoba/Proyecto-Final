@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D playerRigidbody;
     [SerializeField] private float _fuersaSalto;
     [SerializeField] private LayerMask _layerMask;
     private bool _isGround;
@@ -11,7 +11,7 @@ public class PlayerJump : MonoBehaviour
 
     void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        playerRigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -29,8 +29,8 @@ public class PlayerJump : MonoBehaviour
     }
     public void jump()
     {
-        rigidbody2D.linearVelocity = new Vector2(rigidbody2D.linearVelocity.x, 0f);
-        rigidbody2D.AddForce(Vector2.up * _fuersaSalto, ForceMode2D.Impulse);
+        playerRigidbody.linearVelocity = new Vector2(playerRigidbody.linearVelocity.x, 0f);
+        playerRigidbody.AddForce(Vector2.up * _fuersaSalto, ForceMode2D.Impulse);
     }
     public void Suelo()
     {
