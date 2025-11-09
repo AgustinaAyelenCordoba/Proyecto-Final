@@ -6,7 +6,7 @@ public class CollicionPuas : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Entro al jugador");
+            Destroy(collision.gameObject);
         }
     }
 
