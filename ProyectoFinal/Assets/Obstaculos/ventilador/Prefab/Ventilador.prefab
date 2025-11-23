@@ -126,6 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuerzaViento: 600
   direccionViento: {x: 1, y: 0, z: 0}
+  AudioClip: {fileID: 8300000, guid: c005ec5f85e5e24488ca1464da68fa85, type: 3}
 --- !u!61 &7394771422290988943
 BoxCollider2D:
   m_ObjectHideFlags: 0
