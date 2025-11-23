@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class AnimatorFuegoController : MonoBehaviour
 {
+    
     private Animator animator;
     void Start()
     {

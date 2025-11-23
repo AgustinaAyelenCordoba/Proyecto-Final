@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3375065f85328ce469f82b9f75fd9541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioClip: {fileID: 8300000, guid: 8fce1303943cda14dbee152f38534b5d, type: 3}
 --- !u!114 &7287144498997265993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,3 +231,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6680bfe2b62edd4b9002dcf2a8f388d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioClip: {fileID: 8300000, guid: 5aaadaf12e69ac8489c2217c504b8085, type: 3}

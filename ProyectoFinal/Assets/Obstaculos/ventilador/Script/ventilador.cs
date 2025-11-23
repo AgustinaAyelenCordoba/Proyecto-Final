@@ -4,6 +4,7 @@ public class ventilador : MonoBehaviour
 {
     [SerializeField] private float fuerzaViento;
     [SerializeField] private Vector3 direccionViento;
+  
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +23,7 @@ public class ventilador : MonoBehaviour
         objeto.AddForce(direccionViento* fuerzaViento * Time.deltaTime, ForceMode2D.Force);
         
     }
+    
 
 
 

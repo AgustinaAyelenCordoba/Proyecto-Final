@@ -171,3 +171,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuerzaSalto: 800
+  AudioClip: {fileID: 8300000, guid: 641f9dc39bcf99f4a8394abdd424ddbc, type: 3}
