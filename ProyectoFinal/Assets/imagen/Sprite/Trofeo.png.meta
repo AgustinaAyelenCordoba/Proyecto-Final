@@ -1,55 +1,43 @@
 fileFormatVersion: 2
-guid: 412e225aeb0dbd24691893298cb70007
+guid: 6111b1c334c31134baad504a8abd4558
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8359929200229367975
-    second: cofre_0
+      213: 5515206496174577479
+    second: Trofeo_0
   - first:
-      213: 5429183364568197868
-    second: cofre_1
+      213: 7731105653225449734
+    second: Trofeo_1
   - first:
-      213: 7288100845127848175
-    second: cofre_2
+      213: -1555163561433960089
+    second: Trofeo_2
   - first:
-      213: -6738881312473399135
-    second: cofre_3
+      213: 5456599220576621753
+    second: Trofeo_3
   - first:
-      213: -7292403681136149936
-    second: cofre_4
+      213: -701414804138943542
+    second: Trofeo_4
   - first:
-      213: -8145195887625979147
-    second: cofre_5
+      213: -3903505731594790857
+    second: Trofeo_5
   - first:
-      213: 7951648927372838424
-    second: cofre_6
+      213: 638873442919782749
+    second: Trofeo_6
   - first:
-      213: 7827543718865288897
-    second: cofre_7
+      213: -2476220357317219216
+    second: Trofeo_7
   - first:
-      213: 8543332584724505195
-    second: cofre_8
+      213: 1103361466192081551
+    second: Trofeo_8
   - first:
-      213: -7748709548923857377
-    second: cofre_9
+      213: -1354137465134926526
+    second: Trofeo_9
   - first:
-      213: -3160249332699425465
-    second: cofre_10
+      213: 5546262235939634008
+    second: Trofeo_10
   - first:
-      213: 6724508878585336786
-    second: cofre_11
-  - first:
-      213: -8228743271820362686
-    second: cofre_12
-  - first:
-      213: 577327684869655525
-    second: cofre_13
-  - first:
-      213: 6791944513017130973
-    second: cofre_14
-  - first:
-      213: 2383261311346406357
-    second: cofre_15
+      213: -3168977282886916230
+    second: Trofeo_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -145,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cofre_0
+      name: Trofeo_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 381
-        width: 129
-        height: 89
+        x: 93
+        y: 480
+        width: 251
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95fb9e86fa09bfb80800000000000000
-      internalID: -8359929200229367975
+      spriteID: 74799636613f98c40800000000000000
+      internalID: 5515206496174577479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre_1
+      name: Trofeo_1
       rect:
         serializedVersion: 2
-        x: 219
-        y: 381
-        width: 129
-        height: 105
+        x: 379
+        y: 480
+        width: 237
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +170,152 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cea2c894185585b40800000000000000
-      internalID: 5429183364568197868
+      spriteID: 609648561a76a4b60800000000000000
+      internalID: 7731105653225449734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre_2
+      name: Trofeo_2
       rect:
         serializedVersion: 2
-        x: 395
-        y: 381
+        x: 647
+        y: 482
+        width: 213
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761f8110bf2fa6ae0800000000000000
+      internalID: -1555163561433960089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trofeo_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 482
+        width: 182
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b49420b41cb9bb40800000000000000
+      internalID: 5456599220576621753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trofeo_4
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 481
+        width: 143
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb191fa3f21446f0800000000000000
+      internalID: -701414804138943542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trofeo_5
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 482
+        width: 143
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73857910836f3d9c0800000000000000
+      internalID: -3903505731594790857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trofeo_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 75
+        width: 143
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d591aade20cbdd800800000000000000
+      internalID: 638873442919782749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trofeo_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 75
+        width: 143
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c248064b2b2add0800000000000000
+      internalID: -2476220357317219216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trofeo_8
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 75
         width: 144
-        height: 112
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe0d119ca19842560800000000000000
-      internalID: 7288100845127848175
+      spriteID: f82bb3b586def4f00800000000000000
+      internalID: 1103361466192081551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre_3
+      name: Trofeo_9
       rect:
         serializedVersion: 2
-        x: 579
-        y: 381
-        width: 159
-        height: 112
+        x: 774
+        y: 76
+        width: 182
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a04182862faa72a0800000000000000
-      internalID: -6738881312473399135
+      spriteID: 245b5956623253de0800000000000000
+      internalID: -1354137465134926526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre_4
+      name: Trofeo_10
       rect:
         serializedVersion: 2
-        x: 762
-        y: 381
-        width: 160
-        height: 112
+        x: 1018
+        y: 76
+        width: 213
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05af0232d7d2cca90800000000000000
-      internalID: -7292403681136149936
+      spriteID: 85b78544e1848fc40800000000000000
+      internalID: 5546262235939634008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cofre_5
+      name: Trofeo_11
       rect:
         serializedVersion: 2
-        x: 954
-        y: 381
-        width: 144
-        height: 112
+        x: 1279
+        y: 76
+        width: 236
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,228 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fab41cce7376fe80800000000000000
-      internalID: -8145195887625979147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_6
-      rect:
-        serializedVersion: 2
-        x: 1153
-        y: 381
-        width: 129
-        height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8168caed19ee95e60800000000000000
-      internalID: 7951648927372838424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_7
-      rect:
-        serializedVersion: 2
-        x: 1336
-        y: 381
-        width: 129
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ce3eca4a8501ac60800000000000000
-      internalID: 7827543718865288897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_8
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 136
-        width: 129
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b622686a8b3009670800000000000000
-      internalID: 8543332584724505195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_9
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 136
-        width: 129
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1657bc38bd077490800000000000000
-      internalID: -7748709548923857377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_10
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 136
-        width: 144
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74519c2c9f98424d0800000000000000
-      internalID: -3160249332699425465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_11
-      rect:
-        serializedVersion: 2
-        x: 579
-        y: 136
-        width: 159
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d31a057231425d50800000000000000
-      internalID: 6724508878585336786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_12
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 111
-        width: 160
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24cf24f8791adcd80800000000000000
-      internalID: -8228743271820362686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_13
-      rect:
-        serializedVersion: 2
-        x: 954
-        y: 135
-        width: 144
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5eb87a77874130800800000000000000
-      internalID: 577327684869655525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_14
-      rect:
-        serializedVersion: 2
-        x: 1153
-        y: 136
-        width: 129
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ddfac80ac85d14e50800000000000000
-      internalID: 6791944513017130973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cofre_15
-      rect:
-        serializedVersion: 2
-        x: 1336
-        y: 136
-        width: 129
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d3fbbd198b031120800000000000000
-      internalID: 2383261311346406357
+      spriteID: a772e3083f78504d0800000000000000
+      internalID: -3168977282886916230
       vertices: []
       indices: 
       edges: []
@@ -510,22 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cofre_0: -8359929200229367975
-      cofre_1: 5429183364568197868
-      cofre_10: -3160249332699425465
-      cofre_11: 6724508878585336786
-      cofre_12: -8228743271820362686
-      cofre_13: 577327684869655525
-      cofre_14: 6791944513017130973
-      cofre_15: 2383261311346406357
-      cofre_2: 7288100845127848175
-      cofre_3: -6738881312473399135
-      cofre_4: -7292403681136149936
-      cofre_5: -8145195887625979147
-      cofre_6: 7951648927372838424
-      cofre_7: 7827543718865288897
-      cofre_8: 8543332584724505195
-      cofre_9: -7748709548923857377
+      Trofeo_0: 5515206496174577479
+      Trofeo_1: 7731105653225449734
+      Trofeo_10: 5546262235939634008
+      Trofeo_11: -3168977282886916230
+      Trofeo_2: -1555163561433960089
+      Trofeo_3: 5456599220576621753
+      Trofeo_4: -701414804138943542
+      Trofeo_5: -3903505731594790857
+      Trofeo_6: 638873442919782749
+      Trofeo_7: -2476220357317219216
+      Trofeo_8: 1103361466192081551
+      Trofeo_9: -1354137465134926526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
