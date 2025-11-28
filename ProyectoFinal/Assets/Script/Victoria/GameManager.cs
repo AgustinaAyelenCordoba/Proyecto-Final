@@ -76,4 +76,8 @@ public class GameManager : MonoBehaviour
         _gameObject.SetActive(true);
     }
 
+    public void cerrarJuego ()
+    {
+        Application.Quit();
+    }
 }
