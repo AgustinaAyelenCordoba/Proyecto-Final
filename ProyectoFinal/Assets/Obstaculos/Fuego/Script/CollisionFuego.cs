@@ -8,7 +8,7 @@ public class CollisionFuego : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Destroy(collision.gameObject);
-            AudioManager.Instance.PlaySoundEffect(AudioClip, 0.5f);
+            AudioManager.Instance.PlaySoundEffect(AudioClip);
         }
     }
 }

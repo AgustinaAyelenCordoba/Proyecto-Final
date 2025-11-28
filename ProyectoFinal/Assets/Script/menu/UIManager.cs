@@ -45,8 +45,16 @@ public class UIManager : MonoBehaviour
 
     public void menuPlay()
     {
-        _isMenu = !_isMenu  ;
-        _menu.SetActive(_isMenu);
+        
+        if (SceneManager.GetActiveScene().buildIndex > 0 && SceneManager.GetActiveScene().buildIndex < 3)
+        {
+            menuPause();
+
+        } else if (SceneManager.GetActiveScene().buildIndex==0 || SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            _isMenu = !_isMenu;
+            _menu.SetActive(_isMenu);
+        }
     }
 
     public void menuPause()

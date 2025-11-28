@@ -14,7 +14,7 @@ public class TrampolinColison : MonoBehaviour
         Rigidbody2D objeto = collision.gameObject.GetComponent<Rigidbody2D>();
         objeto.AddForce(Vector2.up * fuerzaSalto * Time.deltaTime, ForceMode2D.Impulse);
         trampolinAnimation.SetBool("isOn", true);
-        AudioManager.Instance.PlaySoundEffect(AudioClip, 0.5f);
+        AudioManager.Instance.PlaySoundEffect(AudioClip);
     }
     private void OnCollisionExit2D(Collision2D collision)
     {

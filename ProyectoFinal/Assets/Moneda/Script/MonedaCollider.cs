@@ -10,7 +10,7 @@ public class MonedaCollider : MonoBehaviour
         { 
         
             Destroy(gameObject);
-            AudioManager.Instance.PlaySoundEffect(AudioClip,0.5f);
+            AudioManager.Instance.PlaySoundEffect(AudioClip);
             GameManager.Instance.mostrarPuntaje(puntaje);
         }
     }
