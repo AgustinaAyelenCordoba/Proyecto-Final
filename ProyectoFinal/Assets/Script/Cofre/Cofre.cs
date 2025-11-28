@@ -15,6 +15,7 @@ public class Cofre : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         StartCoroutine(abrirCofre());
+       
     }
 
     IEnumerator abrirCofre() 
@@ -23,6 +24,8 @@ public class Cofre : MonoBehaviour
         
         yield return new WaitForSeconds(2);
         Animator.SetBool("isOpen", true);
+        yield return new WaitForSeconds(3);
+        Destroy(gameObject);
 
     }
 }

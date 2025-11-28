@@ -13,6 +13,7 @@ public class SpawPlayer : MonoBehaviour
 
     void Start()
     {
+       
     }
 
     // Update is called once per frame
